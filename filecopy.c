@@ -1,0 +1,17 @@
+#include <stdio.h>
+main()
+{
+	int c;
+	c = getchar();
+/*	while( c != EOF )
+	{
+		putchar(c);
+		c = getchar();
+	}
+*/
+	while( c = getchar() != EOF )
+	{
+		//putchar(c);
+		printf("结果: %d\n", c);
+	}
+}
